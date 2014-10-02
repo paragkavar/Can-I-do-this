@@ -1,0 +1,18 @@
+
+/* Class = "IBUILabel"; text = "Yes / No"; ObjectID = "5x5-mD-Tmh"; */
+"5x5-mD-Tmh.text" = "Da / Nu";
+
+/* Class = "IBUIButton"; normalTitle = "Can I... ?"; ObjectID = "ASC-Ae-mYS"; */
+"ASC-Ae-mYS.normalTitle" = "Pot... ?";
+
+/* Class = "IBUIButton"; normalTitle = "Should I... ?"; ObjectID = "Cye-62-gHs"; */
+"Cye-62-gHs.normalTitle" = "Trebuie... ?";
+
+/* Class = "IBUIButton"; normalTitle = "Back"; ObjectID = "Kjy-jR-xtd"; */
+"Kjy-jR-xtd.normalTitle" = "Înapoi";
+
+/* Class = "IBUIButton"; normalTitle = "Yes or No?"; ObjectID = "PeY-pm-Oce"; */
+"PeY-pm-Oce.normalTitle" = "Da sau Nu?";
+
+/* Class = "IBUIButton"; normalTitle = "Will I... ?"; ObjectID = "hAU-Ia-vi8"; */
+"hAU-Ia-vi8.normalTitle" = "Vreau... ?";

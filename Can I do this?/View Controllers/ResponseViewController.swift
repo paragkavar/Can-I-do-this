@@ -17,7 +17,7 @@ class ResponseViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        resultLabel.text = (arc4random() % 2 == 0 ? "Yes" : "No")
+        resultLabel.text = (arc4random() % 2 == 0 ? NSLocalizedString("RESPONSE_YES", comment: "Yes") : NSLocalizedString("RESPONSE_NO", comment: "No"))
     }
     
     override func didReceiveMemoryWarning() {

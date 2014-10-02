@@ -19,6 +19,7 @@
 		B4D7718119DC8A0A0067EDCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D7718019DC8A0A0067EDCF /* UIKit.framework */; };
 		B4D7718319DC8A210067EDCF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D7718219DC8A210067EDCF /* SystemConfiguration.framework */; };
 		B4D7718519DC8A2F0067EDCF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D7718419DC8A2F0067EDCF /* libz.dylib */; };
+		B4D7718A19DD83ED0067EDCF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4D7718C19DD83ED0067EDCF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,9 @@
 		B4D7718019DC8A0A0067EDCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B4D7718219DC8A210067EDCF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B4D7718419DC8A2F0067EDCF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B4D7718719DD81810067EDCF /* ro-RO */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ro-RO"; path = "ro-RO.lproj/Main.strings"; sourceTree = "<group>"; };
+		B4D7718B19DD83ED0067EDCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B4D7718D19DD83F50067EDCF /* ro-RO */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ro-RO"; path = "ro-RO.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 		B4D7714519DC866B0067EDCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B4D7718C19DD83ED0067EDCF /* Localizable.strings */,
 				B4D7714619DC866B0067EDCF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -253,6 +258,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ro-RO",
 			);
 			mainGroup = B4D7713919DC866B0067EDCF;
 			productRefGroup = B4D7714319DC866B0067EDCF /* Products */;
@@ -271,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4D7715019DC866B0067EDCF /* Main.storyboard in Resources */,
+				B4D7718A19DD83ED0067EDCF /* Localizable.strings in Resources */,
 				B4D7715219DC866B0067EDCF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,8 +326,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				B4D7714F19DC866B0067EDCF /* Base */,
+				B4D7718719DD81810067EDCF /* ro-RO */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4D7718C19DD83ED0067EDCF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4D7718B19DD83ED0067EDCF /* en */,
+				B4D7718D19DD83F50067EDCF /* ro-RO */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
