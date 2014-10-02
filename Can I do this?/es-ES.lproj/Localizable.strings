@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Can I do this?
+
+  Created by Alecs Popa on 02/10/14.
+  Copyright (c) 2014 Alecs Popa. All rights reserved.
+*/
+
+RESPONSE_YES="Sí";
+RESPONSE_NO="No";

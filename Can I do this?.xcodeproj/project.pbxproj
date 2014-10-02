@@ -63,6 +63,12 @@
 		B4D7718719DD81810067EDCF /* ro-RO */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ro-RO"; path = "ro-RO.lproj/Main.strings"; sourceTree = "<group>"; };
 		B4D7718B19DD83ED0067EDCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B4D7718D19DD83F50067EDCF /* ro-RO */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ro-RO"; path = "ro-RO.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B4D7718E19DD85230067EDCF /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Main.strings"; sourceTree = "<group>"; };
+		B4D7718F19DD85230067EDCF /* es-ES */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-ES"; path = "es-ES.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B4D7719019DD853C0067EDCF /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		B4D7719119DD853C0067EDCF /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B4D7719219DD893B0067EDCF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		B4D7719319DD893B0067EDCF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +265,9 @@
 				en,
 				Base,
 				"ro-RO",
+				"es-ES",
+				"pt-BR",
+				fr,
 			);
 			mainGroup = B4D7713919DC866B0067EDCF;
 			productRefGroup = B4D7714319DC866B0067EDCF /* Products */;
@@ -327,6 +336,9 @@
 			children = (
 				B4D7714F19DC866B0067EDCF /* Base */,
 				B4D7718719DD81810067EDCF /* ro-RO */,
+				B4D7718E19DD85230067EDCF /* es-ES */,
+				B4D7719019DD853C0067EDCF /* pt-BR */,
+				B4D7719219DD893B0067EDCF /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -336,6 +348,9 @@
 			children = (
 				B4D7718B19DD83ED0067EDCF /* en */,
 				B4D7718D19DD83F50067EDCF /* ro-RO */,
+				B4D7718F19DD85230067EDCF /* es-ES */,
+				B4D7719119DD853C0067EDCF /* pt-BR */,
+				B4D7719319DD893B0067EDCF /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
