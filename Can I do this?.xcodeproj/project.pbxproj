@@ -117,12 +117,10 @@
 		B4D7714419DC866B0067EDCF /* Can I do this? */ = {
 			isa = PBXGroup;
 			children = (
-				B4D7716E19DC87650067EDCF /* Can I do this?-Bridging-Header.h */,
 				B4D7714719DC866B0067EDCF /* AppDelegate.swift */,
 				B4D7716A19DC86AE0067EDCF /* View Controllers */,
 				B4D7716B19DC86D40067EDCF /* UI */,
 				B4D7715119DC866B0067EDCF /* Images.xcassets */,
-				B4D7714919DC866B0067EDCF /* Can_I_do_this_.xcdatamodeld */,
 				B4D7714519DC866B0067EDCF /* Supporting Files */,
 			);
 			path = "Can I do this?";
@@ -132,6 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				B4D7718C19DD83ED0067EDCF /* Localizable.strings */,
+				B4D7716E19DC87650067EDCF /* Can I do this?-Bridging-Header.h */,
+				B4D7714919DC866B0067EDCF /* Can_I_do_this_.xcdatamodeld */,
 				B4D7714619DC866B0067EDCF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -442,7 +442,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Can I do this?/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +450,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$PROJECT_NAME/$PROJECT_NAME-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -460,7 +461,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Can I do this?/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,6 +469,7 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$PROJECT_NAME/$PROJECT_NAME-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
