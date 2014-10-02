@@ -526,6 +526,7 @@
 				B4D7716619DC866B0067EDCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4D7716719DC866B0067EDCF /* Build configuration list for PBXNativeTarget "Can I do this?Tests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				B4D7716919DC866B0067EDCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
