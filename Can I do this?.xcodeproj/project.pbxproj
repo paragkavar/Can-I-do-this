@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		B4D7714819DC866B0067EDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7714719DC866B0067EDCF /* AppDelegate.swift */; };
 		B4D7714B19DC866B0067EDCF /* Can_I_do_this_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4D7714919DC866B0067EDCF /* Can_I_do_this_.xcdatamodeld */; };
-		B4D7714D19DC866B0067EDCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7714C19DC866B0067EDCF /* ViewController.swift */; };
+		B4D7714D19DC866B0067EDCF /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7714C19DC866B0067EDCF /* OptionsViewController.swift */; };
 		B4D7715019DC866B0067EDCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4D7714E19DC866B0067EDCF /* Main.storyboard */; };
 		B4D7715219DC866B0067EDCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4D7715119DC866B0067EDCF /* Images.xcassets */; };
-		B4D7715519DC866B0067EDCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D7715319DC866B0067EDCF /* LaunchScreen.xib */; };
 		B4D7716119DC866B0067EDCF /* Can_I_do_this_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7716019DC866B0067EDCF /* Can_I_do_this_Tests.swift */; };
+		B4D7716D19DC87120067EDCF /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D7716C19DC87120067EDCF /* ResponseViewController.swift */; };
+		B4D7717B19DC883C0067EDCF /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D7717A19DC883C0067EDCF /* libGoogleAnalyticsServices.a */; };
+		B4D7717F19DC8A050067EDCF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D7717E19DC8A050067EDCF /* CoreData.framework */; };
+		B4D7718119DC8A0A0067EDCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D7718019DC8A0A0067EDCF /* UIKit.framework */; };
+		B4D7718319DC8A210067EDCF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D7718219DC8A210067EDCF /* SystemConfiguration.framework */; };
+		B4D7718519DC8A2F0067EDCF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D7718419DC8A2F0067EDCF /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +36,29 @@
 		B4D7714619DC866B0067EDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4D7714719DC866B0067EDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4D7714A19DC866B0067EDCF /* Can_I_do_this_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Can_I_do_this_.xcdatamodel; sourceTree = "<group>"; };
-		B4D7714C19DC866B0067EDCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4D7714C19DC866B0067EDCF /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		B4D7714F19DC866B0067EDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4D7715119DC866B0067EDCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B4D7715419DC866B0067EDCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B4D7715A19DC866B0067EDCF /* Can I do this?Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can I do this?Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4D7715F19DC866B0067EDCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4D7716019DC866B0067EDCF /* Can_I_do_this_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_I_do_this_Tests.swift; sourceTree = "<group>"; };
+		B4D7716C19DC87120067EDCF /* ResponseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
+		B4D7716E19DC87650067EDCF /* Can I do this?-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Can I do this?-Bridging-Header.h"; sourceTree = "<group>"; };
+		B4D7717019DC883C0067EDCF /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		B4D7717119DC883C0067EDCF /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		B4D7717219DC883C0067EDCF /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		B4D7717319DC883C0067EDCF /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		B4D7717419DC883C0067EDCF /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		B4D7717519DC883C0067EDCF /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		B4D7717619DC883C0067EDCF /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		B4D7717719DC883C0067EDCF /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		B4D7717819DC883C0067EDCF /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		B4D7717919DC883C0067EDCF /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		B4D7717A19DC883C0067EDCF /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		B4D7717E19DC8A050067EDCF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B4D7718019DC8A0A0067EDCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4D7718219DC8A210067EDCF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B4D7718419DC8A2F0067EDCF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D7717F19DC8A050067EDCF /* CoreData.framework in Frameworks */,
+				B4D7718119DC8A0A0067EDCF /* UIKit.framework in Frameworks */,
+				B4D7718319DC8A210067EDCF /* SystemConfiguration.framework in Frameworks */,
+				B4D7718519DC8A2F0067EDCF /* libz.dylib in Frameworks */,
+				B4D7717B19DC883C0067EDCF /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +90,8 @@
 				B4D7714419DC866B0067EDCF /* Can I do this? */,
 				B4D7715D19DC866B0067EDCF /* Can I do this?Tests */,
 				B4D7714319DC866B0067EDCF /* Products */,
+				B4D7718619DC8A720067EDCF /* Frameworks */,
+				B4D7716F19DC883C0067EDCF /* GoogleAnalyticsLibrary */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,11 +107,11 @@
 		B4D7714419DC866B0067EDCF /* Can I do this? */ = {
 			isa = PBXGroup;
 			children = (
+				B4D7716E19DC87650067EDCF /* Can I do this?-Bridging-Header.h */,
 				B4D7714719DC866B0067EDCF /* AppDelegate.swift */,
-				B4D7714C19DC866B0067EDCF /* ViewController.swift */,
-				B4D7714E19DC866B0067EDCF /* Main.storyboard */,
+				B4D7716A19DC86AE0067EDCF /* View Controllers */,
+				B4D7716B19DC86D40067EDCF /* UI */,
 				B4D7715119DC866B0067EDCF /* Images.xcassets */,
-				B4D7715319DC866B0067EDCF /* LaunchScreen.xib */,
 				B4D7714919DC866B0067EDCF /* Can_I_do_this_.xcdatamodeld */,
 				B4D7714519DC866B0067EDCF /* Supporting Files */,
 			);
@@ -113,6 +141,52 @@
 				B4D7715F19DC866B0067EDCF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4D7716A19DC86AE0067EDCF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7714C19DC866B0067EDCF /* OptionsViewController.swift */,
+				B4D7716C19DC87120067EDCF /* ResponseViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B4D7716B19DC86D40067EDCF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7714E19DC866B0067EDCF /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B4D7716F19DC883C0067EDCF /* GoogleAnalyticsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7717019DC883C0067EDCF /* GAI.h */,
+				B4D7717119DC883C0067EDCF /* GAIDictionaryBuilder.h */,
+				B4D7717219DC883C0067EDCF /* GAIEcommerceFields.h */,
+				B4D7717319DC883C0067EDCF /* GAIEcommerceProduct.h */,
+				B4D7717419DC883C0067EDCF /* GAIEcommerceProductAction.h */,
+				B4D7717519DC883C0067EDCF /* GAIEcommercePromotion.h */,
+				B4D7717619DC883C0067EDCF /* GAIFields.h */,
+				B4D7717719DC883C0067EDCF /* GAILogger.h */,
+				B4D7717819DC883C0067EDCF /* GAITrackedViewController.h */,
+				B4D7717919DC883C0067EDCF /* GAITracker.h */,
+				B4D7717A19DC883C0067EDCF /* libGoogleAnalyticsServices.a */,
+			);
+			path = GoogleAnalyticsLibrary;
+			sourceTree = "<group>";
+		};
+		B4D7718619DC8A720067EDCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4D7718419DC8A2F0067EDCF /* libz.dylib */,
+				B4D7718219DC8A210067EDCF /* SystemConfiguration.framework */,
+				B4D7718019DC8A0A0067EDCF /* UIKit.framework */,
+				B4D7717E19DC8A050067EDCF /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +238,7 @@
 				TargetAttributes = {
 					B4D7714119DC866B0067EDCF = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 99EU4JN363;
 					};
 					B4D7715919DC866B0067EDCF = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -196,7 +271,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4D7715019DC866B0067EDCF /* Main.storyboard in Resources */,
-				B4D7715519DC866B0067EDCF /* LaunchScreen.xib in Resources */,
 				B4D7715219DC866B0067EDCF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4D7714D19DC866B0067EDCF /* ViewController.swift in Sources */,
+				B4D7714D19DC866B0067EDCF /* OptionsViewController.swift in Sources */,
+				B4D7716D19DC87120067EDCF /* ResponseViewController.swift in Sources */,
 				B4D7714819DC866B0067EDCF /* AppDelegate.swift in Sources */,
 				B4D7714B19DC866B0067EDCF /* Can_I_do_this_.xcdatamodeld in Sources */,
 			);
@@ -246,14 +321,6 @@
 				B4D7714F19DC866B0067EDCF /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B4D7715319DC866B0067EDCF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4D7715419DC866B0067EDCF /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -340,9 +407,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Can I do this?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAnalyticsLibrary",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$PROJECT_NAME/$PROJECT_NAME-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -350,9 +425,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Can I do this?/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAnalyticsLibrary",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$PROJECT_NAME/$PROJECT_NAME-Bridging-Header.h";
 			};
 			name = Release;
 		};
