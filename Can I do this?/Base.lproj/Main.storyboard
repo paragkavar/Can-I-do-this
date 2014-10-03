@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pOt-OY-AY0">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -9,7 +8,7 @@
         <!--Options View Controller-->
         <scene sceneID="UaO-SH-TmO">
             <objects>
-                <tableViewController id="pOt-OY-AY0" customClass="OptionsViewController" customModule="Can_I_do_this_" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="pOt-OY-AY0" customClass="OptionsViewController" customModule="canidothis" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="WPT-QC-dqS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,7 +141,7 @@
         <!--Response View Controller-->
         <scene sceneID="RyG-Ip-BbU">
             <objects>
-                <viewController storyboardIdentifier="responseViewController" id="i5q-8L-Wae" customClass="ResponseViewController" customModule="Can_I_do_this_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="responseViewController" id="i5q-8L-Wae" customClass="ResponseViewController" customModule="canidothis" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Yky-Wx-cJX"/>
                         <viewControllerLayoutGuide type="bottom" id="DDM-DS-Scg"/>
