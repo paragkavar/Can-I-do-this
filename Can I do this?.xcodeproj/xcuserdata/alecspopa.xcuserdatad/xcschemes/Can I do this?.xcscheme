@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B4D7714119DC866B0067EDCF"
-               BuildableName = "Can I do this?.app"
+               BuildableName = "canidothis.app"
                BlueprintName = "Can I do this?"
                ReferencedContainer = "container:Can I do this?.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B4D7714119DC866B0067EDCF"
-            BuildableName = "Can I do this?.app"
+            BuildableName = "canidothis.app"
             BlueprintName = "Can I do this?"
             ReferencedContainer = "container:Can I do this?.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B4D7714119DC866B0067EDCF"
-            BuildableName = "Can I do this?.app"
+            BuildableName = "canidothis.app"
             BlueprintName = "Can I do this?"
             ReferencedContainer = "container:Can I do this?.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B4D7714119DC866B0067EDCF"
-            BuildableName = "Can I do this?.app"
+            BuildableName = "canidothis.app"
             BlueprintName = "Can I do this?"
             ReferencedContainer = "container:Can I do this?.xcodeproj">
          </BuildableReference>
