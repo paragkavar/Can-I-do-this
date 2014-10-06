@@ -6,5 +6,4 @@
   Copyright (c) 2014 Alecs Popa. All rights reserved.
 */
 
-"CFBundleName" = "Puedo... ?";
-"CFBundleDisplayName" = "Puedo... ?";
+CFBundleDisplayName = "Puedo... ?";
